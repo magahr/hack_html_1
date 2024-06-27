@@ -50,72 +50,37 @@ body{
     padding: 0;
 }
 
-
-
-
-
 .uno{
     /*margin: 10;*/
     /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     0px      0px     0px;
+    margin: 100px     20px      0px     20px;
     padding: 0;
-    height: 100px;
+    height: 25px;
     width: 100%;
-    background-color: #93B5C9;
+    background-color: #FFBD59;
     
 }
+
 .dos{
-    margin: 0;
+    /*margin: 10;*/
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 15px     20px      0px     20px;
     padding: 0;
-    height: 150px;
+    height: 25px;
     width: 100%;
-    background-color: #AB2849;
+    background-color: #FFBD59;
     
 }
-.tres1{
+
+.image{
     /*     arriba, derecha, abajo     izquierda*/ 
-   margin: 10px     0px      0px     50px;
-   height: 100px;
-   width: 50%;
-   background-color: #AB2849;
+    margin: 15px     20px      0px     20px;
+    height: 20px;
+    width: 20%;*/
+   
    
 }
-.tres2{
-    /*     arriba, derecha, abajo     izquierda*/ 
-   margin: 10px     50px      0px     0px;
-   height: 100px;
-   width: 50%;
-   background-color: #AB2849;
-}
+
 .contenedor1{
     display: flex;
 }
-.tres4{
-    /*     arriba, derecha, abajo     izquierda*/ 
-  
-   margin: 10px     5px      0px     50px;
-   height: 100px;
-   width: 50%;
-   background-color: #AB2849;
-   
-}
-.tres5{
-    /*     arriba, derecha, abajo     izquierda*/ 
-   margin: 10px     50px      0px     5px;
-   height: 100px;
-   width: 50%;
-   background-color: #AB2849;
-}
-.cuatro{
-    margin: 10px     0px      10px     0px;
-    padding: 0;
-    height: 150px;
-    width: 100%;
-    background-color: #AB2849;
-    
-}
-
-
-
-
-
