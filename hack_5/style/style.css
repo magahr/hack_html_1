@@ -8,6 +8,8 @@ body{
     background-color: white;
 }
 .grupo01{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     0px      0px     20px;
     position: relative;
     text-align: center;
     display: flex;
@@ -15,11 +17,20 @@ body{
     flex-wrap: wrap;
 }
 .grupo01_01{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     50px      0px     20px;
     position: relative;
     float: left;
     right: 32%;
-
 }
+.grupo01_02{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     50px      0px     0px;
+    position: relative;
+    float: right;
+    /*right: 32%;*/
+}
+
 span {
     position: relative;
     background-color: #7ED957;
@@ -28,6 +39,21 @@ span {
     overflow: hidden;
     width: 2%;
   }
+.grupo02{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     0px      0px     20px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image1_grupo02{
+    /*     arriba, derecha, abajo     izquierda */ 
+    position: relative;
+    display: flex; 
+           
+}
 
 
 .titulo{
@@ -104,15 +130,7 @@ span {
     
 }
 
-.image1{
-    /*     arriba, derecha, abajo     izquierda */ 
-    margin: -180px     10%      0px     5%;
-    /*height: 50px;
-    width: 50px;*/
-    position: relative;
-    display: flex; 
-           
-}
+
 .image2{
     /*     arriba, derecha, abajo     izquierda */ 
     margin: -180px     10%      0px     5%;
