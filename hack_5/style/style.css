@@ -10,6 +10,7 @@ body{
 .grupo01{
     /*     arriba, derecha, abajo     izquierda*/ 
     margin: 0px     0px      0px     20px;
+    padding: 50px;
     position: relative;
     text-align: center;
     display: flex;
@@ -18,7 +19,7 @@ body{
 }
 .grupo01_01{
     /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     50px      0px     20px;
+    margin: 0px     20px      0px     20px;
     position: relative;
     float: left;
     right: 32%;
@@ -32,13 +33,17 @@ body{
 }
 
 span {
+    margin: 0px     0px      0px     0px;
     position: relative;
     background-color: #7ED957;
-    padding: 10px;
-    border-radius: 100%;
-    overflow: hidden;
+    border-radius: 50%;
+    /*overflow: hidden;*/
     width: 2%;
+    float: right;
+   /* padding: 10px;
+    display: flex; */
   }
+
 .grupo02{
     /*     arriba, derecha, abajo     izquierda*/ 
     margin: 0px     0px      0px     20px;
@@ -126,30 +131,27 @@ span {
     width: 100%;
     background-color: #FFBD59;
     position: relative; 
-
-    
+   
 }
-
 
 .image2{
     /*     arriba, derecha, abajo     izquierda */ 
     margin: -180px     10%      0px     5%;
     /*height: 50px;
     width: 50px;*/
-        
     position: relative;
     display: flex; 
-           
+      
 }
 .image3{
     /*     arriba, derecha, abajo     izquierda */ 
     margin: -180px     10%      0px     5%;
     /*height: 50px;
     width: 50px;*/
-   
+ 
     position: relative;
     display: flex; 
-    
+  
            
 }
 
@@ -161,4 +163,34 @@ span {
     align-items: center;
     
 }
-    
+
+/*esto lo hizo el profe
+main{
+
+    position: relative;
+  
+  }
+  
+   
+  
+  img{
+  
+    position: absolute;
+  
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  
+    z-index: -1;
+  
+  }
+  
+   
+  
+  <main>
+  
+    <img src="image.png">
+  
+  </main>
+
+  */
