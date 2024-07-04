@@ -1,196 +1,155 @@
-:root{
-    --bg-blue:#93B5C9;
-    --bg-wine:#AB2849;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-.grupo01{
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     0px      0px     20px;
-    padding: 50px;
-    position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.grupo01_01{
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     20px      0px     20px;
-    position: relative;
-    float: left;
-    right: 32%;
-}
-.grupo01_02{
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     50px      0px     0px;
-    position: relative;
-    float: right;
-    /*right: 32%;*/
-}
-
-span {
-    margin: 0px     0px      0px     0px;
-    position: relative;
-    background-color: #7ED957;
-    border-radius: 50%;
-    /*overflow: hidden;*/
-    width: 2%;
-    float: right;
-   /* padding: 10px;
-    display: flex; */
+* {
+    overflow-x: hidden;
+    z-index: 1;
+    padding: 0px;
+    margin: 3px;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
-
-.grupo02{
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 0px     0px      0px     20px;
-    position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.image1_grupo02{
-    /*     arriba, derecha, abajo     izquierda */ 
-    position: relative;
-    display: flex; 
-           
-}
-
-
-.titulo{
-    
-    line-height: 1;
-    font-size: 0;
-    color: #000000;
-    font-size: 1cqb;
-    text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 0;
-    padding: 0;
-  
-}
-.titulo1{
-     /*     arriba, derecha, abajo     izquierda*/ 
-    line-height: 0;
-    font-size: 0;
-    margin-top: 0;
-    margin: 0;
-    padding: 0;
-    color: #B88940;
-    font-size: 4cqb;
-    text-align: center;
-    font-family: sans-serif ;
-}
-.titulo2{
-    color: #000000;
-    font-size: 2cqb;
-    text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 0;
-    padding: 0;
-}
-.titulo3{
-    margin-top: 0;
-    color: #000000;
-    font-size: 1cqb;
-    text-align: center;
-    font-family: Catamaran;
-    margin-bottom: 0;
-    padding: 0;
-}
-.titulo1_fin{
-    /*     arriba, derecha, abajo     izquierda*/ 
-    color: #B88940;
-    font-size: 2cqb;
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 10%;
-    padding: 0;
-}
-.uno{
-    /*margin: 10;*/
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 100px     20px      0px     20px;
-    padding: 0;
-    height: 25px;
-    width: 100%;
-    background-color: #FFBD59;
-    position: relative;
-}
-
-.dos{
-    /*margin: 10;*/
-    /*     arriba, derecha, abajo     izquierda*/ 
-    margin: 15px     20px     0px     20px;
-    padding: 0;
-    height: 25px;
-    width: 100%;
-    background-color: #FFBD59;
-    position: relative; 
-   
-}
-
-.image2{
-    /*     arriba, derecha, abajo     izquierda */ 
-    margin: -180px     10%      0px     5%;
-    /*height: 50px;
-    width: 50px;*/
-    position: relative;
-    display: flex; 
-      
-}
-.image3{
-    /*     arriba, derecha, abajo     izquierda */ 
-    margin: -180px     10%      0px     5%;
-    /*height: 50px;
-    width: 50px;*/
- 
-    position: relative;
-    display: flex; 
-  
-           
-}
-
-.container{
+  body {
+    background-color: white;
+  }
+  .container {
+    position: static;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+  }
+  .content {
     position: relative;
     justify-content: center;
     align-items: center;
-    
-}
-
-/*esto lo hizo el profe
-main{
-
+  }
+  .content-inicio {
     position: relative;
-  
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
-  
-   
-  
-  img{
-  
-    position: absolute;
-  
-    background-size: cover;
-  
+  .h2-a{
+      position: relative;
+      float: left;
+      right: 32%;
+  }
+  span {
+    position: relative;
+    background-color: rgb(0, 204, 34);
+    padding: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 3%;
+  }
+  .content-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*background-image: url(2.png);*/
+    background-image: url('/img/2.png');
     background-repeat: no-repeat;
-  
-    z-index: -1;
-  
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 90vw;
+    height: 70vh;
+    z-index: 2;
   }
-  
-   
-  
-  <main>
-  
-    <img src="image.png">
-  
-  </main>
-
-  */
+  @font-face {
+    font-family: "Prompt";
+    src: url(fuentes/Prompt-Bold.ttf);
+    font-weight: bold;
+    font-size: bold;
+  }
+  .sub-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .h1-a {
+    background-color: rgb(33, 206, 85);
+    width: 20%;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    font-family: "Prompt";
+    overflow: hidden;
+  }
+  .h1-b {
+    background-color: rgb(33, 206, 85);
+    width: 40%;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    font-family: "Prompt";
+    overflow: hidden;
+  }
+  .h1-c {
+    background-color: rgb(33, 206, 85);
+    width: 25%;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    font-family: "Prompt";
+    overflow: hidden;
+  }
+  .sub-header2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    font-family: "Prompt";
+    overflow: hidden;
+  }
+  .content-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 8%;
+  }
+  .content-imagenes {
+    position: initial;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .img-1 {
+    margin-right: 5%;
+  }
+  .img-2 {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .img-3 {
+    margin-left: 0%;
+  }
+  .content-fooster {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 206, 85);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .link {
+    margin-right: 14%;
+  }
+  @media (max-width: 480px) { 
+    .h1-a, .h1-b, .h1-c {
+      font-size: 1.5em; 
+    }
+    .sub-header2 {
+      font-size: 0.8em; 
+    }
+    .content-fooster {
+      flex-direction: column; 
+    }
+    .link {
+      margin-bottom: 10px; 
+    }
+  }
