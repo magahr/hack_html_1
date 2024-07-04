@@ -35,7 +35,11 @@ body{
     height: 100px;
     width: 85%;
     background-color: #AB2849;
-    
+    /*clear: bot;
+    clear: both;  uno de los dos*/
+    /*esto es para usar el cliear
+    https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clear*/
+
 }
 .cuatro{
     /*     arriba, derecha, abajo     izquierda*/ 
