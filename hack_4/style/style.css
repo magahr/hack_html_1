@@ -1,0 +1,124 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.titulo{
+    
+    line-height: 1;
+    font-size: 0;
+    color: #000000;
+    font-size: 1cqb;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    padding: 0;
+  
+}
+.titulo1{
+     /*     arriba, derecha, abajo     izquierda*/ 
+    line-height: 0;
+    font-size: 0;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    color: #B88940;
+    font-size: 4cqb;
+    text-align: center;
+    font-family: sans-serif ;
+}
+.titulo2{
+    color: #000000;
+    font-size: 2cqb;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    padding: 0;
+}
+.titulo3{
+    margin-top: 0;
+    color: #000000;
+    font-size: 1cqb;
+    text-align: center;
+    font-family: Catamaran;
+    margin-bottom: 0;
+    padding: 0;
+}
+.titulo1_fin{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    color: #B88940;
+    font-size: 2cqb;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10%;
+    padding: 0;
+}
+.uno{
+    /*margin: 10;*/
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 100px     20px      0px     20px;
+    padding: 0;
+    height: 25px;
+    width: 100%;
+    background-color: #FFBD59;
+    position: relative;
+}
+
+.dos{
+    /*margin: 10;*/
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 15px     20px     0px     20px;
+    padding: 0;
+    height: 25px;
+    width: 100%;
+    background-color: #FFBD59;
+    position: relative; 
+
+    
+}
+
+.image1{
+    /*     arriba, derecha, abajo     izquierda */ 
+    margin: -180px     10%      0px     5%;
+    /*height: 50px;
+    width: 50px;*/
+    position: relative;
+    display: flex; 
+           
+}
+.image2{
+    /*     arriba, derecha, abajo     izquierda */ 
+    margin: -180px     10%      0px     5%;
+    /*height: 50px;
+    width: 50px;*/
+        
+    position: relative;
+    display: flex; 
+           
+}
+.image3{
+    /*     arriba, derecha, abajo     izquierda */ 
+    margin: -180px     10%      0px     5%;
+    /*height: 50px;
+    width: 50px;*/
+   
+    position: relative;
+    display: flex; 
+    
+           
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+    

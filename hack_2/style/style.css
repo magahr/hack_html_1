@@ -1,0 +1,57 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.uno{
+    /*margin: 10;*/
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     0px      0px     0px;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #93B5C9;
+    
+}
+.dos{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #AB2849;
+    
+}
+.tres{
+     /*     arriba, derecha, abajo     izquierda*/ 
+    float: left;
+    margin: 10px     0px      0px     0px;
+    height: 100px;
+    width: 85%;
+    background-color: #AB2849;
+    /*clear: bot;
+    clear: both;  uno de los dos*/
+    /*esto es para usar el cliear
+    https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_clear*/
+
+}
+.cuatro{
+    /*     arriba, derecha, abajo     izquierda*/ 
+   float: left;
+   margin: 10px     0px      0px     55px;
+   height: 100px;
+   width: 90%;
+   background-color: #AB2849;
+   
+}
+
+
+
+
+
