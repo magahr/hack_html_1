@@ -1,0 +1,65 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.uno{
+    /*margin: 10;*/
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 0px     0px      0px     0px;
+    padding: 0;
+    height: 100px;
+    width: 200%;
+    background-color: #93B5C9;
+    
+}
+.dos{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #AB2849;
+    
+}
+.tres{
+     /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 10px     0px      0px     0px;
+    height: 100px;
+    width: 100%;
+    background-color: #AB2849;
+    
+}
+.cuatro{
+    margin: 200;
+    padding: 20;
+    height: 100px;
+    width: 15%;
+    background-color: white;
+    
+}
+.cinco{
+    /*     arriba, derecha, abajo     izquierda*/ 
+    margin: 10px     0px      0px     0px;
+    height: 100px;
+    width: 95%;
+    background-color: #AB2849;
+   
+}
+.sies{
+    margin: 200;
+    padding: 20;
+    height: 100px;
+    width: 2%;
+    background-color: white;
+   
+}
+
+
+
